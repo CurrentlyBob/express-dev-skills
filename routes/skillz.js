@@ -7,5 +7,6 @@ router.get('/', skillzCtrl.index)
 router.get('/new', skillzCtrl.new)
 router.get('/:skillId', skillzCtrl.show)
 router.post('/', skillzCtrl.create)
+router.delete('/:skillId', skillzCtrl.delete)
 
 export { router }
